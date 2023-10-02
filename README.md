@@ -34,5 +34,14 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
   </a>
 </p>
 
-<!--END_SECTION:footer-->
+Instruções de intalação
 
+Caso ocorra algum tipo de erro relacionado ao servidor emulado faça o seguinte para atualizar o node e dependencias:
+
+yarn add node-sass@latest
+yarn cache clean
+yarn add sass-loader@^12.0.0
+yarn add css-loader@^6.0.0
+
+uma linha de cada vez.
+<!--END_SECTION:footer-->
